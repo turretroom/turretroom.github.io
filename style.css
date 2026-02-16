@@ -6,9 +6,6 @@ body {
     font-family: 'Noto Serif', serif;
 }
 p {
-    margin-top: 40px;
-    margin-left: 500px;
-    margin-right: 500px;
     color: lightgreen;
     font-size: larger;
     border: 2px solid darkgreen;
@@ -17,7 +14,6 @@ p {
 }
 h1 {
     color: lightseagreen;
-    margin: 40px;
     text-align: center;
 }
 h2 {
@@ -28,25 +24,21 @@ h2 {
 h3 {
     color: coral;
     text-align: center;
-    margin: 40px;
     font-size: larger;
 }
 h4 {
     color: seagreen;
     text-align: center;
-    margin: 40px;
     font-size: large;
 }
 h5 {
     color: green;
     text-align: center;
-    margin: 40px;
     font-size: large;
 }
 h6 {
     color: greenyellow;
     text-align: center;
-    margin: 40px;
     font-size: large;
 }
 button {
