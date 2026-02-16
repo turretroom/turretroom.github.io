@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: 'Noto', serif, Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    margin: 40px;
+}
+h1 {
+    color: lightseagreen;
+    margin-left: 40px;
+}
+hr {
+    color: olive;
+}
