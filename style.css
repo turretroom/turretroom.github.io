@@ -10,7 +10,7 @@ p {
     font-size: larger;
     border: 2px solid darkgreen;
     border-style: inset;
-    padding: 30px
+    padding: 30px;
 }
 h1 {
     color: lightseagreen;
@@ -61,4 +61,20 @@ img {
   display: block;
   margin: auto;
   width: 50%;
+}
+table {
+    border: 1px solid;
+    border-color: darkgreen;
+    border-style: outset;
+    padding: 10px;
+    width: 100%;
+}
+td {
+  text-align: center;
+}
+th {
+  text-align: center;
+}
+a {
+    color: cyan;
 }
