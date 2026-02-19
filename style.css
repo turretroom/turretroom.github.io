@@ -1,87 +1,110 @@
 body {
-    background-color: rgb(0, 20, 0);
+    background-color: darkolivegreen;
     color: white;
     margin: 40px;
     font: larger;
-    font-family: 'Noto Serif', serif;
+    font-family: sans-serif, serif;
+}
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 p {
-    color: white;
-    background-color: seagreen;
+    color: olive;
+    background-color: black;
     font-size: larger;
-    border: 10px white;
-    border-style: double;
+    border: 10px coral;
+    border-style: inset;
     padding: 30px;
-    max-width: 500px;
+    max-width: 750px;
     margin: auto;
     align-items: center;
 }
 h1 {
-    color: white;
-    background-color: seagreen;
+    color: coral;
+    background-color: black;
+    font-size: 350%;
+    font-family: Noto serif;
+    font-weight: bold;
+    width: 750px;
     text-align: center;
-    max-width: 500px;
     margin:auto;
-    border: 10px white;
-    border-style:double;
+    border: 50px coral;
+    border-style: inset;
     padding: 30px;
 }
 h2 {
-    color: white;
-    background-color: seagreen;
+    color: seagreen;
+    background-color: black;
+    font-size: 250%;
+    font-family: Noto serif;
+    font-weight: bold;
+    width: 750px;
     text-align: center;
-    max-width: 500px;
     margin:auto;
-    border: 10px white;
-    border-style:double;
+    border: 25px coral;
+    border-style: inset;
     padding: 30px;
 }
 h3 {
-    color: white;
-    background-color: seagreen;
+    color: green;
+    background-color: black;
+    font-size: 150%;
+    font-family: Noto serif;
+    font-weight: bold;
+    width: 500px;
     text-align: center;
-    max-width: 500px;
     margin:auto;
-    border: 10px white;
-    border-style:double;
+    border: 20px coral;
+    border-style: inset;
     padding: 30px;
 }
 h4 {
-    color: white;
-    background-color: seagreen;
+    color: olive;
+    background-color: black;
+    font-family: Noto serif;
+    font-weight: bold;
+    width: 500px;
     text-align: center;
-    max-width: 500px;
     margin:auto;
-    border: 10px white;
-    border-style:double;
+    border: 15px coral;
+    border-style: inset;
     padding: 30px;
 }
 h5 {
-    color: white;
-    background-color: seagreen;
+    color: skyblue;
+    background-color: black;
+    font-family: Noto serif;
+    font-weight: bold;
+    width: 250px;
     text-align: center;
-    max-width: 500px;
     margin:auto;
-    border: 10px white;
-    border-style:double;
+    border: 10px coral;
+    border-style: inset;
     padding: 30px;
 }
 h6 {
-    color: white;
-    background-color: seagreen;
     text-align: center;
-    max-width: 500px;
     margin:auto;
-    border: 10px white;
-    border-style:double;
-    padding: 30px;
 }
 button {
-  background-color: coral;
-  border: none;
-  border-radius: 25px;
+  background-color: black;
+  border: 10px;
   border-style: inset;
-  color: white;
+  border-color: coral;
+  color: seagreen;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -90,16 +113,17 @@ button {
   cursor: pointer;
 }
 a {
-    color: coral;
+    color: seagreen;
 }
 a :hover {
-    color: gold;
+    color: goldenrod;
 }
 a :active {
-    color: yellow
+    color: lightgreen
 }
 hr {
     color: black;
+    size: 10px;
 }
 img {
   display: block;
@@ -107,13 +131,14 @@ img {
   width: 50%;
 }
 table {
+    background-color: black;
     border: 10px;
-    border-color: white;
-    border-style: double;
-    background-color: seagreen;
+    border-color: coral;
+    border-style: inset;
     padding: 30px;
     margin: auto;
     width: auto;
+    text-align: center;
 }
 td {
   text-align: center;
