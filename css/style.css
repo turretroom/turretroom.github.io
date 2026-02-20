@@ -1,6 +1,8 @@
 body {
+    background-image: url(../images/mapofmentallecdarkolivegreen.png);
+    background-position: center;
     background-color: darkolivegreen;
-    color: white;
+    color: darkolivegreen;
     margin: 40px;
     font: larger;
     font-family: sans-serif, serif;
@@ -33,16 +35,16 @@ p {
     align-items: center;
 }
 h1 {
-    color: coral;
+    color: #ff7f50;
     background-color: black;
     font-size: 350%;
     font-family: Noto serif;
     font-weight: bold;
     text-align: center;
     margin:auto;
-    border: 50px coral;
+    border: 35px coral;
     border-style: inset;
-    padding: 30px;
+    padding: 35px;
 }
 h2 {
     color: seagreen;
@@ -54,32 +56,44 @@ h2 {
     margin:auto;
     border: 25px coral;
     border-style: inset;
-    padding: 30px;
+    padding: 35px;
 }
 h3 {
     color: orange;
+    background-color: black;
     font-size: 150%;
     font-family: Noto serif;
     font-weight: bold;
     text-align: center;
-    margin:auto;
+    border: 10px coral;
+    border-style: inset;
     padding: 30px;
+    max-width: 750px;
+    margin:auto;
 }
 h4 {
     color: orangered;
+    background-color: black;
     font-family: Noto serif;
     font-weight: bold;
     text-align: center;
+    border: 10px coral;
+    border-style: inset;
+    padding: 20px;
+    max-width: 750px;
     margin:auto;
-    padding: 30px;
 }
 h5 {
     color: skyblue;
+    background-color: black;
     font-family: Noto serif;
     font-weight: bold;
     text-align: center;
+    border: 10px coral;
+    border-style: inset;
+    padding: 10px;
+    max-width: 750px;
     margin:auto;
-    padding: 30px;
 }
 h6 {
     text-align: center;
