@@ -38,7 +38,6 @@ h1 {
     font-size: 350%;
     font-family: Noto serif;
     font-weight: bold;
-    width: 750px;
     text-align: center;
     margin:auto;
     border: 50px coral;
@@ -51,7 +50,6 @@ h2 {
     font-size: 250%;
     font-family: Noto serif;
     font-weight: bold;
-    width: 750px;
     text-align: center;
     margin:auto;
     border: 25px coral;
@@ -59,40 +57,28 @@ h2 {
     padding: 30px;
 }
 h3 {
-    color: green;
-    background-color: black;
+    color: orange;
     font-size: 150%;
     font-family: Noto serif;
     font-weight: bold;
-    width: 500px;
     text-align: center;
     margin:auto;
-    border: 20px coral;
-    border-style: inset;
     padding: 30px;
 }
 h4 {
-    color: olive;
-    background-color: black;
+    color: orangered;
     font-family: Noto serif;
     font-weight: bold;
-    width: 500px;
     text-align: center;
     margin:auto;
-    border: 15px coral;
-    border-style: inset;
     padding: 30px;
 }
 h5 {
     color: skyblue;
-    background-color: black;
     font-family: Noto serif;
     font-weight: bold;
-    width: 250px;
     text-align: center;
     margin:auto;
-    border: 10px coral;
-    border-style: inset;
     padding: 30px;
 }
 h6 {
@@ -108,6 +94,7 @@ button {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
+  font-weight: bolder;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
