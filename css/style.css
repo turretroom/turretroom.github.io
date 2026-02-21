@@ -131,6 +131,38 @@ img {
   margin: auto;
   width: 50%;
 }
+ul {
+    color: olive;
+    list-style:none;
+    background-color: black;
+    font-size: larger;
+    border: 10px coral;
+    border-style: inset;
+    padding: 30px;
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+ul li{
+    margin: 15px;
+}
+ol {
+    color: olive;
+    list-style: decimal;
+    background-color: black;
+    font-size: larger;
+    border: 10px coral;
+    border-style: inset;
+    padding: 30px;
+    max-width: 750px;
+    margin: auto;
+    align-items: center;
+}
+ol li {
+    background-color: black;
+    margin: 15px;
+}
 table {
     background-color: black;
     border: 10px;
