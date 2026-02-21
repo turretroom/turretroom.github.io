@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=100%, initial-scale=1.0">
+  <title>Turret Room</title>
+  <link rel="icon" type="image/png" href="../../images/favicon.png">
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<h6>
+  <a href="../../index.html">
+  <button>Return to the Turret Room</button>
+</a>
+<a href="roleplay.html">
+  <button>Return to Pirates & Knights</button>
+</a>
+</h6>
+<br><br>
+<H2>
+    Equipment
+</H2><br><br>
+<p>Your character begins the game with 10 Equipment Slots. Two of these are Held Items, and the other eight slots are Bag Slots. You also have five Armor Slots that represent your character&#39;s worn gear. You can wear armor in three of those slots, but the fourth and fifth slot take up one Bag Slot each. The following items, listed as Armor, Items, Vehicles, and Weapons, are available for Starting Equipment and in most Towns and Cities.</p><br><br>
+<h3 id="armor">Armor</h3>
+<p>Your character can wear up to five pieces of Armor. When you take damage, Armor is reduced before health. When your Armor reaches zero, it breaks and must be repaired before it can be used again. The first three pieces of armor do not use up Equipment slots. </p><br>
+<h4 id="clothing">Clothing</h4>
+<p>If your character is wearing Clothing in all their Armor Slots, the clothing gives them +1 Armor. This is called wearing an Outfit.</p><br>
+<table>
+<thead>
+<tr>
+<th>Armor Slot</th>
+<th>Clothing</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Head</td>
+<td>Hood</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Arms</td>
+<td>Bracers</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Chest</td>
+<td>Cloak</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Legs</td>
+<td>Garments</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Feet</td>
+<td>Shoes</td>
+<td>1</td>
+</tr>
+</tbody>
+</table><br><br>
+<h4 id="light-armor">Light Armor</h4>
+<p>Each piece of Light Armor provides a +1 bonus to Armor. If your character is wearing Light Armor in all their Armor Slots, they are able to move silently.</p><br>
+<table>
+<thead>
+<tr>
+<th>Armor Slot</th>
+<th>Armor</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Head</td>
+<td>Cap</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Arms</td>
+<td>Gloves</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Chest</td>
+<td>Jerkin</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Legs</td>
+<td>Shinguards</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Feet</td>
+<td>Greaves</td>
+<td>2</td>
+</tr>
+</tbody>
+</table><br><br>
+<h4 id="medium-armor">Medium Armor</h4>
+<p>Each piece of Medium Armor provides a +2 bonus to Armor. If your character is wearing Medium Armor, they are able to move silently as long as they are not wearing more than 3 pieces of Medium Armor in any of their Armor Slots.</p><br>
+<table>
+<thead>
+<tr>
+<th>Armor Slot</th>
+<th>Armor</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Head</td>
+<td>Skullcap</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Arms</td>
+<td>Pauldrons</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Chest</td>
+<td>Cuirass</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Legs</td>
+<td>Chausses</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Feet</td>
+<td>Boots</td>
+<td>6</td>
+</tr>
+</tbody>
+</table><br><br>
+<h4 id="heavy-armor">Heavy Armor</h4>
+<p>Each piece of Heavy Armor provides a +3 bonus to Armor. If your character is wearing Heavy Armor, they are able to move silently as long as they are not wearing more than 2 pieces of Heavy Armor in any of their Armor Slots.</p><br>
+<table>
+<thead>
+<tr>
+<th>Armor Slot</th>
+<th>Armor</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Head</td>
+<td>Helm</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Arms</td>
+<td>Gauntlets</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Chest</td>
+<td>Breastplate</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Legs</td>
+<td>Cuisses</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Feet</td>
+<td>Sollerets</td>
+<td>10</td>
+</tr>
+</tbody>
+</table><br><br>
+<h3 id="items">Items</h3><br>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Description</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alcohol, flask</td>
+<td>Contains 2 pints of alcohol</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Backpack</td>
+<td>Holds up to 400 GP worth of Treasure</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Bottle</td>
+<td>Contains up to 2 pints of fluid</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Camping gear</td>
+<td>Enough for one person to set up Camp - 1 bedroll and tent</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Candle</td>
+<td>Provides 15&#39; of light for 1 hour, or 6 Rounds</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Chains, 25&#39; long, iron</td>
+<td>Can hold the weight of one person.</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Crowbar</td>
+<td>Can force doors and other objects open</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Garlic</td>
+<td>Worn around the neck</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Holy water</td>
+<td>Inflicts 2d6 damage on undead monsters</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Hook</td>
+<td>Has 3 or 4 prongs, can anchor a rope</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Idol</td>
+<td>Can have three Spells carved into it</td>
+<td>175</td>
+</tr>
+<tr>
+<td>Lantern</td>
+<td>Can be closed to hide the light, provides 30&#39; of light for 4 hours, or 24 Rounds</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Lockpicking tool</td>
+<td>Allows for Lockpicking on a Check of 13 or above</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Mallet</td>
+<td>Can drive stakes and spikes into floors and walls</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Mirror</td>
+<td>Hand-sized, made of polished steel</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Oil, flask</td>
+<td>Contains 2 pints of oil</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Pole, 10&#39; long, wooden</td>
+<td>Can poke and prod at suspicious objects in a location</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Ration</td>
+<td>Enough food for 1 Turn.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Ration, Iron</td>
+<td>Enough food for 9 Turns.</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Rope, 50&#39; long</td>
+<td>Can hold the weight of three people</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Sack, large</td>
+<td>Can hold up to 800 GP of Treasure</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Sack, small</td>
+<td>Can hold up to 600 GP of Treasure</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Scroll</td>
+<td>Can have one Spell written into it</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Shield</td>
+<td>+1 Defense while held</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Shield, heavy</td>
+<td>+1 Defense and +1 Armor while held</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Spellbook</td>
+<td>Can have three Spells written into it</td>
+<td>175</td>
+</tr>
+<tr>
+<td>Spike, iron</td>
+<td>Can wedge doors open or shut, anchor rope</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stake, wooden</td>
+<td>18&quot; long, pointed stakes</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Symbol</td>
+<td>Can have one Spell written into it</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Tinderbox</td>
+<td>Takes one Bout to light a fire, 2-in-6 chance of success per Bout</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Torch</td>
+<td>Provides 30&#39; of light for 1 hour, or 6 Rounds</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Trap</td>
+<td>Assassins can use these to immobilize foes that fail a Saving Throw.</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Water, flask</td>
+<td>Contains 2 pints of water</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Wine</td>
+<td>Contains 2 pints of wine</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Wolfsbane, bunch</td>
+<td>Wrapped around bludgeoning weapons</td>
+<td>10</td>
+</tr>
+</tbody>
+</table><br><br>
+<h3 id="vehicles">Vehicles</h3>
+<p>Your character can own as many vehicles as they can keep a hold of. Mounts will require stables, food, and water to stay happy and healthy. Vehicles and Mounts cannot be brought into dungeons or indoor locations.</p><br>
+<table>
+<thead>
+<tr>
+<th>Vehicle</th>
+<th>Description</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cart</td>
+<td>+10 Slots of extra Equipment. Must be driven by at least two Oxen.</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Oxen</td>
+<td>Beasts of burden that move Carts. The more oxen driving the cart, the faster it goes.</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Horse</td>
+<td>Can carry a person over far distances at great speeds.</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Mule</td>
+<td>Not as fast as a Horse, but provides +6  Slots of extra Equipment.</td>
+<td>10</td>
+</tr>
+</tbody>
+</table><br><br>
+<h3 id="weapons">Weapons</h3>
+<p>Your character can use as many weapons as they can manage to hold in their hands. There are Basic Weapons that all characters can use and Expert Weapons that only some characters can use. </p><br>
+<br>
+<h4 id="ammunition">Ammunition</h4>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>1 Slot</th>
+<th>Damage</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arrows</td>
+<td>Quiver of 20</td>
+<td>+0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Bolts</td>
+<td>Case of 30</td>
+<td>+1</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Silver tipped arrow</td>
+<td>Single piece</td>
+<td>+1</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Sling stones</td>
+<td>Sack of 20</td>
+<td>+0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Bullets</td>
+<td>Magazine of 10</td>
+<td>+2</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h4 id="basic">Basic</h4>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Range</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Axe</td>
+<td>M</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Club</td>
+<td>M</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Dart</td>
+<td>R</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Harpoon</td>
+<td>M&amp;R</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Hammer</td>
+<td>M&amp;R</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Knife</td>
+<td>M&amp;R</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Pitchfork</td>
+<td>M</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Scythe</td>
+<td>M</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Sickle</td>
+<td>M</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Sling</td>
+<td>R</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Slingshot</td>
+<td>R</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Quarterstaff</td>
+<td>M</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h4 id="expert">Expert</h4>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Range</th>
+<th>Notes</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arquebus</td>
+<td>R</td>
+<td>Two-handed, 1-in-6 chance the target catches on fire, can only be fired once every 6 Bouts</td>
+<td>250</td>
+</tr>
+<tr>
+<td>Battleaxe</td>
+<td>M</td>
+<td>Two-handed, suited for splitting foes in twain in open areas</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Claymore</td>
+<td>M</td>
+<td>Two-handed, suited for artful combat in tight spaces</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Composite bow</td>
+<td>R</td>
+<td>Two-handed, more efficient bow</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Crossbow</td>
+<td>R</td>
+<td>Two-handed, can only be fired once every 3 Bouts</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Dagger</td>
+<td>M&amp;R</td>
+<td>One handed, suited for concealment and surprise attacks</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Flintlock</td>
+<td>M&amp;R</td>
+<td>One-handed, 1-in-6 chance the target catches on fire, can only be fired once every 4 Bouts</td>
+<td>350</td>
+</tr>
+<tr>
+<td>Lance</td>
+<td>M</td>
+<td>Two-handed, suited for mounted combat</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Javelin</td>
+<td>M&amp;R</td>
+<td>One-handed, can be thrown</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Longbow</td>
+<td>R</td>
+<td>Two-handed, suited for firing at a distance</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Longsword</td>
+<td>M</td>
+<td>One-or-two-handed, suited for a variety of situations</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Mace</td>
+<td>M</td>
+<td>One-handed, suited for crushing heavy armor</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Morningstar</td>
+<td>M</td>
+<td>Two-handed, suited for getting through medium armor</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Net</td>
+<td>M</td>
+<td>One-handed, prevents movement once thrown</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Poleaxe</td>
+<td>M</td>
+<td>Two-handed, suited for keeping targets at a distance</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Repeating crossbow</td>
+<td>R</td>
+<td>One-handed, can only be fired once every 2 Bouts</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Sabre</td>
+<td>M</td>
+<td>One-handed, suited for fighting lightly armored opponents</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Shortbow</td>
+<td>R</td>
+<td>Two-handed, suited for firing at close range</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Trident</td>
+<td>M&amp;R</td>
+<td>One-handed, can be thrown</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Warhammer</td>
+<td>M</td>
+<td>Two-handed, suited for crushing heavy armor</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<br><br>
+<h6>
+<a target="_blank" href="https://www.instagram.com/turretroom/">
+  <button>Instagram</button>
+</a>
+<a href="mailto:turretroom@gmail.com">
+  <button>Email</button>
+</a>
+<a target="_blank" href="https://www.venmo.com/u/turretroom">
+  <button>Venmo</button>
+</a>
+</h6>
+<br>
+<br>
+</body>
+</html>

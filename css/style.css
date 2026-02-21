@@ -34,6 +34,17 @@ p {
     margin: auto;
     align-items: center;
 }
+pre {
+    color: olive;
+    background-color: black;
+    font-size: larger;
+    border: 10px coral;
+    border-style: inset;
+    padding: 30px;
+    max-width: 750px;
+    margin: auto;
+    align-items: center;
+}
 h1 {
     color: #ff7f50;
     background-color: black;
@@ -157,25 +168,30 @@ ol {
     padding: 30px;
     max-width: 750px;
     margin: auto;
-    align-items: center;
+    align-items: left;
 }
 ol li {
     background-color: black;
+    text-align: left;
     margin: 15px;
 }
 table {
     background-color: black;
+    color: olive;
+    font-size: larger;
     border: 10px;
     border-color: coral;
     border-style: inset;
     padding: 30px;
     margin: auto;
-    width: auto;
-    text-align: center;
+    max-width: auto;
+    text-align: left;
 }
 td {
-  text-align: center;
+  text-align: left;
+  padding: 10px;
 }
 th {
-  text-align: center;
+  text-align: left;
+  padding: 10px;
 }
