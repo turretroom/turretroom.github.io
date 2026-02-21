@@ -30,7 +30,7 @@ p {
     border: 10px coral;
     border-style: inset;
     padding: 30px;
-    max-width: 750px;
+    max-width: auto;
     margin: auto;
     align-items: center;
 }
@@ -53,6 +53,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin:auto;
+    max-width: auto;
     border: 35px coral;
     border-style: inset;
     padding: 35px;
@@ -65,6 +66,7 @@ h2 {
     font-weight: bold;
     text-align: center;
     margin:auto;
+    max-width: auto;
     border: 25px coral;
     border-style: inset;
     padding: 35px;
@@ -79,7 +81,7 @@ h3 {
     border: 10px coral;
     border-style: inset;
     padding: 30px;
-    max-width: 750px;
+    max-width: auto;
     margin:auto;
 }
 h4 {
@@ -91,7 +93,7 @@ h4 {
     border: 10px coral;
     border-style: inset;
     padding: 20px;
-    max-width: 750px;
+    max-width: auto;
     margin:auto;
 }
 h5 {
@@ -103,7 +105,7 @@ h5 {
     border: 10px coral;
     border-style: inset;
     padding: 10px;
-    max-width: 750px;
+    max-width: auto;
     margin:auto;
 }
 h6 {
@@ -150,7 +152,7 @@ ul {
     border: 10px coral;
     border-style: inset;
     padding: 30px;
-    max-width: 750px;
+    max-width: auto;
     margin: auto;
     text-align: center;
     align-items: center;
@@ -166,7 +168,7 @@ ol {
     border: 10px coral;
     border-style: inset;
     padding: 30px;
-    max-width: 750px;
+    max-width: auto;
     margin: auto;
     align-items: left;
 }
@@ -192,6 +194,6 @@ td {
   padding: 10px;
 }
 th {
-  text-align: left;
+  text-align: center;
   padding: 10px;
 }
